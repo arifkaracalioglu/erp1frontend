@@ -1,0 +1,100 @@
+.page {
+  max-width: 1200px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.05);
+}
+.clickable {
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  padding: 24px;
+  width: 500px;
+  max-width: 90%;
+  border-radius: 8px;
+}
+
+.modal-section {
+  margin-top: 12px;
+}
+
+.modal-section p {
+  margin: 4px 0;
+}
+
+button.close {
+  margin-top: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+textarea, input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+
+textarea {
+  grid-column: span 2;
+  min-height: 80px;
+}
+
+button {
+  margin-top: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button.danger {
+  background: #ef4444;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.balance.pos {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.balance.neg {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.empty {
+  color: #888;
+}

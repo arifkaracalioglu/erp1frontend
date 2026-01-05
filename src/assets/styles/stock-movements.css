@@ -1,0 +1,55 @@
+.page {
+  max-width: 1200px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.deleted {
+  color: #999;
+  font-style: italic;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+th {
+  font-weight: 600;
+  background: #fafafa;
+}
+
+.in {
+  color: #52c41a;
+  font-weight: bold;
+}
+
+.out {
+  color: #ff4d4f;
+  font-weight: bold;
+}
+
+.empty {
+  color: #888;
+  text-align: center;
+  padding: 20px;
+}
+.filter {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.filter select {
+  min-width: 250px;
+  padding: 8px;
+}
